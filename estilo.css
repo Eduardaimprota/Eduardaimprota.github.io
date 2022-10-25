@@ -1,0 +1,64 @@
+nav {
+    height: 50px;
+    background-color:blue;
+    color:pink;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    list-style-type: none;
+}
+nav li{
+    padding: 10px
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(246, 240, 255);
+}
+section{
+    min-height: 480px;
+    background-color:antiquewhite;
+    color:coral;
+    padding:10px;
+}
+section:hover{
+    background-color:blanchedalmond;
+    color:black;
+}
+.comando-gift{
+    padding:5px;
+    font-size:2rem;
+    border:3px solid purple;
+    background-color:antiquewhite;
+    color: gray;
+}
+p{
+    padding: 5px;
+}
+.conteudo{
+    margin-top: 50px;
+}
+#projetos{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projeto{
+    height:300px;
+    width:300px;
+    border: palevioletred solid 4px;
+    margin: 10px;
+}
+.projeto>img {
+    width:100px;
+}
+.labels span{
+    color: white !important;
+    background-color: rgb(194, 91, 1);
+    border-radius: 100px;
+    padding: 2px 5px;
+}
